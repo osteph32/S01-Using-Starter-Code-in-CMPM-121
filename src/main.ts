@@ -19,6 +19,7 @@ document.body.innerHTML = `
 const button = document.getElementById("increment")!;
 const counterElement = document.getElementById("counter")!;
 
+// Button handler increments once per click
 button.addEventListener("click", () => {
   counter++;
   counterElement.innerText = counter.toString();
